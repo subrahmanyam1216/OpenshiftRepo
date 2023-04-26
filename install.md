@@ -87,5 +87,5 @@ cp oc kubectl /usr/bin/
 
 ./openshift-install create cluster --dir=/root/ocp --log-level=info
 
-./openshift-install create destroy --dir=/root/ocp --log-level=info
+./openshift-install destroy cluster --dir=/root/ocp --log-level=info
 ```
